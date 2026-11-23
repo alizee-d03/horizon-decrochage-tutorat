@@ -1,0 +1,325 @@
+============================================================
+activite_hebdo.csv | encodage : utf-8
+
+-- id_etudiant (6150 valeurs distinctes)
+Exemples : ['HZ58464', 'HZ22694', 'HZ30522', 'HZ56890', 'HZ58687', 'HZ69033', 'HZ37633', 'HZ52486']
+
+-- semaine (35 valeurs distinctes)
+Exemples : ['30', '3', '27', '20', '16', '5', '27', '30']
+min / max : -1 / 99
+non convertibles en nombre : 0
+
+-- nb_connexions_lms (49 valeurs distinctes)
+Exemples : ['12.0', '6.0', '9.0', '1.0', '3.0', '19.0', '8.0', '5.0']
+min / max : -12.0 / 8636.0
+non convertibles en nombre : 0
+
+-- devoirs_rendus (6 valeurs distinctes)
+devoirs_rendus
+2    60926
+1    47678
+0    22333
+7       12
+4       10
+3        8
+
+-- note_moyenne (2416 valeurs distinctes)
+Exemples : ['10.42', '11.04', '9,73', '9.87', '9.27', '10.04', '9.97', '11.73']
+min / max : -1.0 / 163.6
+non convertibles en nombre : 0
+
+-- absences (21 valeurs distinctes)
+absences
+1     28268
+2     27474
+3     20708
+0     16333
+4     13408
+20     8435
+5      7793
+6      4155
+7      2165
+8      1100
+9       538
+10      299
+11      145
+12       80
+13       38
+14       12
+15        6
+17        5
+19        2
+16        2
+18        1
+
+Identifiants mal formatés dans id_etudiant : 1310
+['hz74084', 'hz87940', 'hz88026', 'hz36368', 'hz90319', 'hz11282', 'hz21990', 'hz75165', 'hz59006', 'hz68341']
+============================================================
+etudiants.csv | encodage : utf-8
+
+-- id_etudiant  (5025 valeurs distinctes)
+Exemples : ['HZ46191', 'HZ48041', 'HZ89286', 'HZ57262', 'HZ95522', 'HZ69223', 'hz84539', 'HZ85382']
+
+-- cohorte (2 valeurs distinctes)
+cohorte
+2025    2554
+2024    2531
+
+-- genre (10 valeurs distinctes)
+genre
+M           2563
+F           2115
+Femme         61
+Masculin      57
+Homme         56
+m             55
+F             47
+H             46
+FEMININ       45
+f             40
+
+-- age (25 valeurs distinctes)
+age
+19        1552
+20        1328
+21         826
+22         433
+18         403
+23         219
+24         103
+NaN         72
+25          54
+19 ans      19
+26          19
+18 ans       9
+27           8
+20 ans       7
+28           6
+0            6
+21 ans       6
+150          3
+22 ans       2
+99           2
+23 ans       2
+3            2
+210          1
+31           1
+27 ans       1
+29           1
+
+-- boursier (12 valeurs distinctes)
+boursier
+Non    2660
+Oui    1912
+N        71
+non      63
+NON      59
+0        58
+no       53
+O        51
+oui      49
+1        39
+OUI      39
+yes      31
+
+-- filiere (22 valeurs distinctes)
+filiere
+Informatique      1322
+Gestion           1143
+Droit              775
+Communication      704
+Génie civil        683
+gestion             46
+Gestion             38
+Informatique        38
+INFO                37
+GESTION             37
+Communication       32
+informatique        30
+Info                28
+Genie civil         23
+Droit               22
+Génie Civil         21
+Com                 21
+communication       20
+DROIT               18
+droit               18
+GC                  17
+genie civil         12
+
+-- mention_bac (15 valeurs distinctes)
+mention_bac
+Passable      2061
+Assez bien    1362
+Bien           857
+Très bien      302
+NaN            154
+PASSABLE        62
+passable        61
+P               50
+assez bien      34
+Assez Bien      33
+AB              32
+bien            29
+B               24
+tres bien       10
+Tres bien        8
+TB               6
+
+-- note_bac (987 valeurs distinctes)
+Exemples : ['12.0', '10.94', '14.47', '10.66', '16.55', '13,45', '13.36', '12.52']
+min / max : -2.0 / 135.0
+non convertibles en nombre : 0
+
+-- region_origine (28 valeurs distinctes)
+Exemples : ['Saint-Louis', 'Kaffrine', 'Thiès', 'Kaffrine', 'Kolda', 'Louga', 'Ziguinchor', 'Thiès']
+
+-- Distance campus (km) (985 valeurs distinctes)
+Exemples : ['12.6', '51.4', '9.1 km', '58.0', '8.4', '6.9', '6.8', '104.1']
+min / max : -112.1 / 9999.0
+non convertibles en nombre : 41
+
+-- emploi_parallele (2 valeurs distinctes)
+emploi_parallele
+Non    3913
+Oui     967
+NaN     205
+
+Identifiants mal formatés dans id_etudiant  : 25
+['hz86247', 'hz41252', 'hz97044', 'hz96383', ' HZ49965', 'HZ26733 ', 'HZ12280 ', ' HZ67390', ' HZ90727', 'hz30400']
+============================================================
+inscriptions.csv | encodage : utf-8
+
+-- id_etudiant (5004 valeurs distinctes)
+Exemples : ['HZ12923', 'HZ84801', 'HZ88951', 'HZ54884', 'HZ15482', 'HZ38421', 'HZ39443', 'HZ31724']
+
+-- annee_universitaire (2 valeurs distinctes)
+annee_universitaire
+2025-2026    2525
+2024-2025    2499
+
+-- date_debut (20 valeurs distinctes)
+date_debut
+2025-10-06     1884
+2024-10-07     1831
+07/10/2024      383
+06/10/2025      363
+2024/10/07      175
+2025/10/06      164
+6 oct. 2025     108
+7 oct. 2024     104
+2026-04-16        1
+16/01/2026        1
+2025-01-22        1
+2024-10-29        1
+2025-11-16        1
+2025-03-08        1
+2025-10-16        1
+27/10/2024        1
+2025-11-13        1
+2024-12-05        1
+2026-03-17        1
+2024/10/22        1
+
+-- date_fin (591 valeurs distinctes)
+Exemples : ['2025/11/09', '12 avr. 2025', '2026-01-22', '2026-01-19', '2026-03-25', '2026-01-24', '2025/11/19', '2025-12-31']
+
+-- statut_final (13 valeurs distinctes)
+statut_final
+inscrit      3507
+abandon       968
+transfert     108
+INSCRIT       108
+Inscrit       107
+inscrit       105
+NaN            41
+Abandon        20
+abandonné      20
+Abandon        17
+ABANDON        14
+transfere       6
+Transfert       2
+transféré       1
+
+Identifiants mal formatés dans id_etudiant : 0
+[]
+============================================================
+messages.csv | encodage : utf-8
+
+-- id_message (3200 valeurs distinctes)
+Exemples : ['M00537', 'M01717', 'M00500', 'M00568', 'M02568', 'M01740', 'M01825', 'M02269']
+
+-- id_etudiant (2273 valeurs distinctes)
+Exemples : ['HZ25419', 'HZ58464', 'HZ24438', 'HZ26334', 'HZ82167', 'HZ59036', 'HZ61588', 'HZ73401']
+
+-- semaine (30 valeurs distinctes)
+Exemples : ['1', '12', '11', '29', '14', '27', '18', '20']
+min / max : 1 / 30
+non convertibles en nombre : 0
+
+-- canal (2 valeurs distinctes)
+canal
+formulaire de suivi    1932
+forum                  1268
+
+-- texte (156 valeurs distinctes)
+Exemples : ["Je n'ai pas trouvé le support du cours sur la plateforme.", 'Est-ce que le devoir est à rendre vendredi ?', "Le groupe de travail m'aide à avancer.", "Les TD m'aident beaucoup, merci.", "Le groupe de travail m'aide à avancer.", 'Le planning de la semaine a changé ?', 'Tout se passe bien, je suis à jour dans mes cours.', "J'ai bien compris le dernier chapitre."]
+
+Identifiants mal formatés dans id_etudiant : 0
+[]
+
+Messages avec '@' (emails ?) : 33
+Messages avec suite de chiffres (téléphone ?) : 0
+============================================================
+tutorat.csv | encodage : utf-8
+
+-- ID Etudiant (1261 valeurs distinctes)
+Exemples : ['HZ21815', 'HZ53595', 'HZ57905', 'HZ49492', 'HZ10651', 'HZ51361', 'HZ61871', 'HZ63673']
+
+-- semaine_debut (18 valeurs distinctes)
+semaine_debut
+3     184
+6     154
+4     146
+5     138
+7     135
+9     125
+8     118
+10    102
+11     92
+12     81
+0       5
+52      4
+25      2
+19      1
+18      1
+45      1
+24      1
+21      1
+
+-- nb_seances (36 valeurs distinctes)
+Exemples : ['14', '11', '19', '3', '19', '20', '17', '8']
+min / max : -2.0 / 38.0
+non convertibles en nombre : 0
+
+-- type_tuteur (9 valeurs distinctes)
+type_tuteur
+pair (étudiant avancé)    775
+enseignant                388
+PAIR                       24
+pair                       23
+enseignant                 21
+Pair                       18
+étudiant                   17
+ENSEIGNANT                 16
+Prof                        9
+
+-- motif_orientation (4 valeurs distinctes)
+motif_orientation
+notes faibles             510
+absences répétées         329
+signalement enseignant    245
+demande personnelle       207
+
+Identifiants mal formatés dans ID Etudiant : 0
+[]
